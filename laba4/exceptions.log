@@ -1,0 +1,9 @@
+[2025-12-01 02:29:20] Exception: CustomDivisionException
+Message: Деление на ноль запрещено: делитель = 0
+	at DivisionWithCustomException.divide(DivisionWithCustomException.java:16)
+	at DivisionWithCustomException.main(DivisionWithCustomException.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at jdk.compiler/com.sun.tools.javac.launcher.SourceLauncher.execute(SourceLauncher.java:258)
+	at jdk.compiler/com.sun.tools.javac.launcher.SourceLauncher.run(SourceLauncher.java:138)
+	at jdk.compiler/com.sun.tools.javac.launcher.SourceLauncher.main(SourceLauncher.java:76)
